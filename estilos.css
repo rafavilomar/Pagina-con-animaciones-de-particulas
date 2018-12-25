@@ -1,0 +1,191 @@
+*
+{
+  padding: :0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -moz-boz-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: oswal, helvetica, arial, sans-serif;
+  background: url(fondo.jpg), rgb(48, 48, 48);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.contenedor
+{
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+#particles-js
+{
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  /*background: rgba(50, 50, 50, 0.78);*/
+}
+
+header
+{
+  position: relative;/*Para traerlo hacia delante*/
+  height: auto;
+}
+
+header .menu
+{
+  background-color: rgba(255,255,255,.7);
+  overflow: hidden;
+}
+
+header .logo
+{
+  color: rgba(0,0,0,.8);
+  float: left;
+  font-size: 30px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+header nav
+{
+  float: right;
+}
+
+header nav ul
+{
+  list-style: none;
+}
+
+header nav ul li
+{
+  float: left;
+}
+
+header nav ul li a
+{
+  color: rgba(0,0,0,.8);
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  padding: 0 20px;
+  line-height: 80px;
+}
+
+header nav ul li :hover
+{
+  background-color: rgba(0,0,0.8);
+  border-bottom: 1px solid #fff;
+    color: rgb(255, 255, 255);
+}
+
+.texto
+{
+  color: #fff;
+  position: relative;
+  padding: 200px 0;
+  text-align: center;
+  font-weight: 400;
+}
+
+.texto h2, .texto p
+{
+  background: rgba(0,0,0,.8);
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.texto h2
+{
+  font-size: 40px;
+  letter-spacing: 2.5px;
+  font-weight: normal;
+  width: 35%;
+}
+
+.texto p
+{
+  font-size: 20px;
+  letter-spacing: 2.5;
+  width: 30%;
+}
+
+.texto a
+{
+  color: rgba(173, 10, 10, 0.88);
+  text-decoration: none;
+}
+
+.principal
+{
+  position: relative;
+  color: #000;
+}
+
+.principal article
+{
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+
+.principal article p
+{
+  margin-bottom: 20px;
+  line-height: 24px;
+  font-family: helvetica, arial, sans-serif;
+}
+
+principal article .fecha
+{
+  color: #939393;
+}
+
+@media screen and (max-width: 600px)
+{
+  header .logo
+  {
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+    line-height: 70px;
+  }
+
+  header nav ul li a
+  {
+    display: block;
+    font-size: 14px;
+    padding: 0 15px;
+    line-height: 70px;
+  }
+
+  .texto
+  {
+    font-weight: 200;
+  }
+
+  .texto h2, .texto p
+  {
+    background: rgba(0,0,0,.8);
+    display: inline-block;
+    padding: 8px 15px;
+  }
+
+  .texto h2
+  {
+    font-size: 35px;
+    letter-spacing: 2px;
+    width: 90%;
+  }
+
+  .texto p
+  {
+    font-size: 15px;
+    letter-spacing: 2;
+    width: 70%;
+  }
+}
